@@ -1,6 +1,5 @@
 .features-section {
   padding-top: 94px;
-  padding-bottom: 0;
 }
 
 .features {
@@ -29,7 +28,7 @@
 
   &-text {
     line-height: 1.5;
-    color: var(--text-color);
+    color: $text-color;
     margin: 0;
   }
 }

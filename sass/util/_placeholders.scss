@@ -1,0 +1,48 @@
+%section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+%button {
+  min-width: 73px;
+  padding: 6px 22px;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: $primary-text-color;
+  background-color: #f5f4fa;
+  letter-spacing: 0.03em;
+  border: none;
+  border-radius: 4px;
+
+  transition: background-color 250ms var(--cubic-timing),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+%btn {
+  min-width: 200px;
+  height: 50px;
+  padding: 10px 32px;
+  display: inline-block;
+
+  color: $accent-color;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.86;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  border: none;
+  border-radius: 4px;
+  background-color: $hover-color;
+}
+
+%container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+  margin: 0 auto;
+}

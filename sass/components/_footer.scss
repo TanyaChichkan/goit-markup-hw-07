@@ -1,0 +1,137 @@
+.footer-contacts {
+  margin-right: 69px;
+  width: 20%;
+}
+
+.main-footer {
+  @extend %container;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.site-logo {
+  display: block;
+  margin-right: 85px;
+
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: $primary-text-color;
+}
+
+.bottom {
+  @extend .site-logo;
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0;
+
+  color: $accent-color;
+}
+
+.adress-street {
+  margin-bottom: 9px;
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $accent-color;
+}
+
+.address-link {
+  display: flex;
+
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.mail {
+  margin-bottom: 9px;
+}
+
+.footer-socials {
+  margin-right: 94px;
+  width: 20%;
+}
+
+.footer-socials-list a {
+  text-decoration: none;
+}
+
+.footer-socials-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $accent-color;
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-frame {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $accent-color;
+}
+
+.footer-input {
+  width: 358px;
+  height: 46px;
+  padding-left: 16px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: $accent-color;
+  outline: none;
+
+  background-color: #2f303a;
+}
+
+.form-frame input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+}
+
+.button {
+  &-sign-up {
+    @extend %btn;
+    margin-left: 12px;
+    display: inline-flex;
+    align-items: center;
+    width: 200px;
+    height: 48px;
+    border: none;
+  }
+
+  &-icon {
+    fill: $accent-color;
+    margin-left: 10px;
+  }
+}

@@ -36,11 +36,6 @@
   transition: fill 250ms $cubic-timing;
 }
 
-// .customers-list-link:hover .company-logo,
-// .customers-list-link:focus .company-logo {
-//   fill: $hover-color;
-// }
-
 .customers-list-link {
   &:hover,
   &:focus {

@@ -7,14 +7,9 @@
 .head-hero {
   max-width: 696px;
   margin: 0 auto 30px;
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  @include font(44px, 900, 1.36, $accent-colorr, 0.06em);
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: $accent-color;
 }
 
 .hero {
@@ -40,17 +35,13 @@
 }
 
 .btn {
+  @extend %button;
   min-width: 200px;
   height: 50px;
   padding: 10px 32px;
   display: inline-block;
 
-  color: $accent-color;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.86;
-  text-align: center;
-  letter-spacing: 0.06em;
+  @include font(16px, 700, 1.86, $accent-colorr, 0.06em);
 
   border: none;
   border-radius: 4px;
